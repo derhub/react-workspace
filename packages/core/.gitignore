@@ -58,5 +58,4 @@ buck-out/
 *.jsbundle
 
 .vscode
-
-lerna-debug.log
+lib

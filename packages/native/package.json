@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
-    "@space/core": "0.0.1",
+    "@space/core": "0.0.2",
     "expo": "^34.0.1",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
@@ -22,6 +22,5 @@
   "devDependencies": {
     "babel-preset-expo": "^6.0.0",
     "expo-yarn-workspaces": "^1.2.0"
-  },
-  "private": true
+  }
 }

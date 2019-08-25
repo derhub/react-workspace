@@ -3,8 +3,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "0.0.1",
   "scripts": {
-    "start": "lerna run start"
+    "build": "lerna run start --scope={@space/core,@space/web}",
+    "clean": "lerna clean",
+    "ls": "lerna ls",
+    "bootstrap": "lerna bootstrap"
   },
   "name": "react-workspace",
   "devDependencies": {
