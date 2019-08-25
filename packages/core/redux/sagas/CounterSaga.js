@@ -16,7 +16,7 @@ export function* incrementAsync({ payload }) {
 
     yield put(increaseSuccess(newValue))
   } catch (error) {
-    console.error(error)
+    console.warn(error)
     yield put(increaseFailed())
   }
 }

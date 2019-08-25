@@ -8,7 +8,7 @@ export const calculateAsync = (prevValue, value) => {
       } else {
         err('reach the max counter')
       }
-    }, 300)
+    }, 200)
 
   })
 }
