@@ -2,7 +2,6 @@
   "name": "@space/web",
   "version": "0.0.1",
   "dependencies": {
-    "@material-ui/core": "^4.3.3",
     "@space/core": "0.0.2",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
